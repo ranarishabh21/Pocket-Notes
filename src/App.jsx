@@ -1,16 +1,14 @@
-import Home from "./component/HomeDesktop/HomeDesktop"
-
-
-
+import Modal from "./components/Modal/Modal";
+import SideBar from "./components/SideBar/SideBar";
 
 function App() {
- 
-
   return (
     <>
-      <Home/>
+
+  {/* <Modal/> */}
+  <SideBar/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
